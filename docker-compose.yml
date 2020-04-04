@@ -2,7 +2,7 @@ version: '2'
 services:
   gary-bot:
     build: ./
-    command: ruby app.rb
+    command: bundle exec ruby app.rb
     environment:
       - BOT_TOKEN
       - BOT_CLIENT_ID

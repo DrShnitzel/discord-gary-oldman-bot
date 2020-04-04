@@ -2,5 +2,5 @@
 
 source 'https://rubygems.org'
 
-gem 'discordrb'
+gem 'discordrb', github: 'swarley/discordrb', branch: 'voice_websocket_update'
 gem 'faker'
